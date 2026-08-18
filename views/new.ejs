@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Create New Post</h2>
+    <!-- enctype="multipart/form-data" image send karne ke liye zaruri hai -->
+    <form method="POST" action="/posts" enctype="multipart/form-data">
+        <input type="text" name="username" placeholder="enter username" required><br><br>
+        <textarea name="content" placeholder="write your post"></textarea><br><br>
+        
+        <!-- Photo upload karne ka input field -->
+        <label for="image">Upload Photo:</label>
+        <input type="file" name="image" accept="image/*"><br><br>
+        
+        <button>Submit Post</button>
+    </form>
+</body>
+</html>

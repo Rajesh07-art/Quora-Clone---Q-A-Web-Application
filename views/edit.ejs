@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Edit Post</h2>
+
+    <form method="POST" action="/posts/<%= post.id %>?_method=PATCH" enctype="multipart/form-data">
+        <!-- Readonly username field (matches input style) -->
+        <input type="text" value="@<%= post.username %>" disabled class="disabled-input">
+
+        <!-- Content textarea -->
+        <textarea name="content" rows="4" placeholder="write your post"><%= post.content %></textarea>
+
+        <!-- Image upload container -->
+        <div class="file-input-container">
+            <label>Upload Photo:</label>
+            <input type="file" name="image" accept="image/*">
+        </div>
+
+        <button type="submit">Submit Post</button>
+    </form>
+</body>
+</html>
