@@ -24,5 +24,5 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone [https://github.com/Rajesh07-art/Quora-Clone---Q-A-Web-Application.git]
+   cd Quora-Clone---Q-A-Web-Application
