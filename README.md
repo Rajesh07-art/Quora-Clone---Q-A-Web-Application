@@ -1,3 +1,5 @@
+Created by Rajesh Gadari
+
 # Quora Clone - Q&A Web Application
 
 A full-stack RESTful Web Application built with Node.js, Express, and EJS. This platform allows users to post questions, share detailed answers, upload images, and manage posts with complete CRUD (Create, Read, Update, Delete) functionality.
